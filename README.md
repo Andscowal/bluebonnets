@@ -8,4 +8,6 @@ This project was built using Bootstrap Studio, as I learn more professional grad
 The contact form is merely for aesthetics, it does not operate at this time, although I will work to get it up and running
 when I'm able to, unless someone else wants to do so for me.
 
+This site is currently hosted by GitHub Pages at https://andscowal.github.io/bluebonnets/
+
 Thanks for stopping by and happy coding!
