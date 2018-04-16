@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluebonnet Fields</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Almendra+SC">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/css/Carousel-Hero.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Hero-Nature.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Bluebonnet Fields</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#texas">Texas</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron hero-nature">
+        <h1 class="hero-title">Bluebonnet Fields</h1>
+        <p class="hero-subtitle">We exist because we know that sometimes, you could use a little blue!</p>
+        <p><a class="btn btn-primary btn-lg hero-button" role="button" href="#">Learn more</a></p>
+    </div>
+    <div id="texas">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-center" style="font-family:'Almendra SC', serif;">Texas Strong</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center" style="font-family:'Almendra SC', serif;font-size:18px;"><br>Come on down to Texas,&nbsp;<br>Where the nights are lovely,&nbsp;<br>And the days are long.<br>But one thing you can’t deny,<br>Is that you are <strong>Texas Strong</strong>.<br><br><br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="simple-slider">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" style="background-image:url('assets/img/Hay.jpg');"></div>
+                <div class="swiper-slide" style="background-image:url('assets/img/Pretty.jpg');"></div>
+                <div class="swiper-slide" style="background-image:url('assets/img/Sun.jpg');"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div><div id="contact" class="contact-clean">
+    <form method="post" action="contact.php" role="form">
+        <h2 class="text-center">Contact us</h2>
+        <div class="form-group"><input type="text" name="name" placeholder="Name" class="form-control" /></div>
+        <div class="form-group"><input type="email" name="email" placeholder="Email" class="form-control is-invalid" /><small class="form-text text-danger">Please enter a correct email address.</small></div>
+        <div class="form-group"><textarea rows="14" name="message" placeholder="Message" class="form-control"></textarea></div>
+        <div class="form-group"><button class="btn btn-primary" type="submit">send</button></div>
+    </form>
+</div><footer id="footer">
+
+    <div style= "background: black; text-align: center; margin: 0px; padding:10px">
+        <p style= "color:grey; font-family: raleway">Copyright (c) 2018 Bluebonnet Fields</p>
+    </div>
+</footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+</body>
+
+</html>
